@@ -1,0 +1,111 @@
+.App {
+  padding: 5rem;
+}
+.heading1 {
+  text-align: center;
+}
+.Login {
+  font-family: sans-serif;
+  text-align: center;
+}
+.login-class {
+  margin-top: 10px;
+}
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex > div {
+  margin: 0 1rem 2rem 1rem;
+  text-align: center;
+}
+
+img {
+  display: inline-block;
+  max-width: 100%;
+}
+
+.Form-app {
+  padding-left: 7%;
+  width: 70%;
+}
+.block1 {
+  padding-bottom: 1rem;
+}
+
+.email-div {
+  padding-bottom: 1rem;
+}
+.pass-div {
+  padding-bottom: 1rem;
+}
+.pass2div {
+  padding-bottom: 1rem;
+}
+.male-div {
+  padding-top: 1rem;
+  padding-right: 1rem;
+  display: inline-block;
+  padding-bottom: 1rem;
+}
+.female-div {
+  padding-top: 1rem;
+  display: inline-block;
+  padding-bottom: 1rem;
+}
+.phone-div-label {
+  display: inline-block;
+}
+.phone-div {
+  display: inline-block;
+}
+
+.radio-heading {
+  font-weight: bold;
+  padding-top: 0.5rem;
+}
+.sal-div {
+  width: 100px;
+  display: inline-flex;
+  padding-bottom: 1rem;
+}
+/* .user-div{
+ display: inline-flex;
+} */
+.box1 {
+  align-items: center;
+}
+
+#btn1 {
+  margin-top: 25px;
+}
+.label {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
